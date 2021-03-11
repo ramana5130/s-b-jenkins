@@ -15,22 +15,7 @@ class SpringJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case Executing...");
-		logger.info("Test case Executing Second time...");
-		logger.info("Test case Executing Third time...");
 		
-		logger.info("Test case Executing Fourth time...");
-		logger.info("Test case Executing Fifth time...");
-		logger.info("Test case Executing Sixth time...");
-		logger.info("Test case Executinf seventh time...");
-logger.info("Added this in main branch to test rebase concept...")
-logger.info("will add some file in ramanabranch");
-<<<<<<< .mine
-		
-		logger.info("will add some file in ramanabranch");
-=======
-		
-		logger.info("Added this in main branch to test rebase concept...");
->>>>>>> .theirs
 		assertEquals(true, true);
 	}
 
